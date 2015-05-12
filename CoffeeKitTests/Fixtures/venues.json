@@ -1,0 +1,53 @@
+{
+        "venues": [
+            {
+                "categories": [
+                    {
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/food/coffeeshop_",
+                            "suffix": ".png"
+                        },
+                        "id": "4bf58dd8d48988d1e0931735",
+                        "name": "Coffee Shop",
+                        "pluralName": "Coffee Shops",
+                        "primary": true,
+                        "shortName": "Coffee Shop"
+                    }
+                ],
+                "contact": {
+                    "formattedPhone": "(408) 446-9000",
+                    "phone": "4084469000",
+                    "twitter": "philzcoffee"
+                },
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "id": "51630409498eedc7dd88e60b",
+                "location": {
+                    "address": "20686 Stevens Creek Blvd",
+                    "cc": "US",
+                    "city": "Cupertino",
+                    "country": "United States",
+                    "crossStreet": "De Anza Blvd",
+                    "distance": 936,
+                    "lat": 37.32246179607897,
+                    "lng": -122.03470838696346,
+                    "postalCode": "95014",
+                    "state": "CA"
+                },
+                "name": "Philz Coffee",
+                "referralId": "v-1390061483",
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "stats": {
+                    "checkinsCount": 3790,
+                    "tipCount": 40,
+                    "usersCount": 1460
+                },
+                "verified": true
+            }
+        ]
+}

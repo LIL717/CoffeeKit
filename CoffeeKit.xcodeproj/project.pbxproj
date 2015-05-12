@@ -19,6 +19,8 @@
 		70C190841B018D70008D496C /* VenueCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C190831B018D70008D496C /* VenueCell.m */; };
 		70C190871B018E99008D496C /* Stats.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C190861B018E99008D496C /* Stats.m */; };
 		70C190891B019E96008D496C /* indoorCoffeeShop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 70C190881B019E96008D496C /* indoorCoffeeShop.jpg */; };
+		70C1908B1B0262FB008D496C /* VerifyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C1908A1B0262FB008D496C /* VerifyClass.m */; };
+		70C190901B026644008D496C /* venues.json in Resources */ = {isa = PBXBuildFile; fileRef = 70C1908F1B026644008D496C /* venues.json */; };
 		8DB92A757B55239D1BDAF1FC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 546C56E462C6D3B5E3D62015 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -45,7 +47,7 @@
 		70C190611B017485008D496C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		70C190631B017485008D496C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		70C190661B017485008D496C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		70C1906C1B017485008D496C /* CoffeeKit.temp_caseinsensitive_rename.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeKit.temp_caseinsensitive_rename.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70C1906C1B017485008D496C /* CoffeeKit.Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeKit.Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70C190711B017485008D496C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70C190721B017485008D496C /* CoffeeKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoffeeKitTests.m; sourceTree = "<group>"; };
 		70C1907C1B0181FD008D496C /* Venue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Venue.h; sourceTree = "<group>"; };
@@ -57,6 +59,8 @@
 		70C190851B018E99008D496C /* Stats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stats.h; sourceTree = "<group>"; };
 		70C190861B018E99008D496C /* Stats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stats.m; sourceTree = "<group>"; };
 		70C190881B019E96008D496C /* indoorCoffeeShop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = indoorCoffeeShop.jpg; sourceTree = "<group>"; };
+		70C1908A1B0262FB008D496C /* VerifyClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerifyClass.m; sourceTree = "<group>"; };
+		70C1908F1B026644008D496C /* venues.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = venues.json; path = Fixtures/venues.json; sourceTree = "<group>"; };
 		AB8EDE3385CD685280E66AF0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				70C190501B017484008D496C /* CoffeeKit.app */,
-				70C1906C1B017485008D496C /* CoffeeKit.temp_caseinsensitive_rename.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests.xctest */,
+				70C1906C1B017485008D496C /* CoffeeKit.Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -135,6 +139,8 @@
 		70C1906F1B017485008D496C /* CoffeeKitTests */ = {
 			isa = PBXGroup;
 			children = (
+				70C1908C1B026530008D496C /* Fixtures */,
+				70C1908A1B0262FB008D496C /* VerifyClass.m */,
 				70C190721B017485008D496C /* CoffeeKitTests.m */,
 				70C190701B017485008D496C /* Supporting Files */,
 			);
@@ -147,6 +153,14 @@
 				70C190711B017485008D496C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70C1908C1B026530008D496C /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				70C1908F1B026644008D496C /* venues.json */,
+			);
+			name = Fixtures;
 			sourceTree = "<group>";
 		};
 		8C412343C01121C76CD889F0 /* Frameworks */ = {
@@ -203,7 +217,7 @@
 			);
 			name = CofffeeKitTests;
 			productName = CoffeeKitTests;
-			productReference = 70C1906C1B017485008D496C /* CoffeeKit.temp_caseinsensitive_rename.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests.xctest */;
+			productReference = 70C1906C1B017485008D496C /* CoffeeKit.Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -259,6 +273,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70C190901B026644008D496C /* venues.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +332,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70C190731B017485008D496C /* CoffeeKitTests.m in Sources */,
+				70C1908B1B0262FB008D496C /* VerifyClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +453,8 @@
 			baseConfigurationReference = 19013031D6E5C8B960B9D9EE /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(inherited)";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Public\"",
@@ -452,6 +470,7 @@
 				);
 				INFOPLIST_FILE = CoffeeKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = CoffeeKit;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -462,6 +481,7 @@
 			baseConfigurationReference = AB8EDE3385CD685280E66AF0 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Public\"",
@@ -477,6 +497,7 @@
 				);
 				INFOPLIST_FILE = CoffeeKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = CoffeeKit;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -484,6 +505,7 @@
 		};
 		70C1907A1B017485008D496C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19013031D6E5C8B960B9D9EE /* Pods.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -496,7 +518,7 @@
 				);
 				INFOPLIST_FILE = CoffeeKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = CoffeeKit.temp_caseinsensitive_rename.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests;
+				PRODUCT_NAME = CoffeeKit.Tests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoffeeKit.app/CoffeeKit";
 			};
 			name = Debug;
@@ -511,7 +533,7 @@
 				);
 				INFOPLIST_FILE = CoffeeKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = CoffeeKit.temp_caseinsensitive_rename.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests;
+				PRODUCT_NAME = CoffeeKit.Tests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoffeeKit.app/CoffeeKit";
 			};
 			name = Release;
