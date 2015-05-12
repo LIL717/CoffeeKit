@@ -76,7 +76,7 @@
 }
 - (void)loadVenues
 {
-	NSString *latLon = @"47.615363,-122.348278"; // approximate latLon of The Mothership (a.k.a Apple headquarters)
+	NSString *latLon = @"47.615363,-122.348278"; // approximate latLon of DatStat
 	NSString *clientID = kCLIENTID;
 	NSString *clientSecret = kCLIENTSECRET;
 
